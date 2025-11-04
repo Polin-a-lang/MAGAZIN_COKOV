@@ -1,0 +1,189 @@
+body,h1,h2,h3,p,ul{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    background-color:#F9F9F9;
+}
+.container{
+    width: 1720px;
+    margin: auto;
+}
+.header{
+    padding: 41px 0 ;
+    border-bottom: 2px solid #779611;
+}
+.header-container{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    gap: 80px;
+}
+.header-link{
+    color:#707070;
+    font-size: 20px;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
+     text-transform: capitalize;
+}
+.hero{
+    border-bottom: 2px solid #779611;
+}
+.hero-container{
+    display: flex;
+    gap: 443px;
+    align-items: center;
+}
+.hero-title{
+    color: #779611;
+    font-size: 48px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.hero-text{
+    color: #000000;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.hero-link{
+    padding: 18px 70px;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    border:  1px solid #779611;
+    border-radius: 40px;
+    background-color: #779611;
+    color: #F9F9F9;
+} 
+/* 2 секція */
+.flaves{
+    padding-top: 80px;
+}
+.flaves-title{
+    font-size: 36px;
+    font-family: "Exo 2", sans-serif;
+    color: #779611;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.flaves-text{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 50px;
+}
+.flaves-list{
+    display: flex;
+    justify-content: space-between;
+}
+.flaves-name{
+    padding-left: 60px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    color: #779611;
+    font-weight: 400;
+}
+.flaves-price{
+    padding-left: 60px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+/* 3 секція */
+.subscription{
+    padding-top: 60px;
+}
+.subscription-title{
+    font-size: 36px;
+    font-family: "Exo 2", sans-serif;
+    color: #779611;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.subscription-text{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 50px;
+}
+.subscription-list{
+    display: flex;
+    justify-content: space-between;
+}
+.subscription-name{
+    padding-left: 60px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    color: #779611;
+    font-weight: 400;
+}
+.subscription-price{
+    padding-left: 60px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 60px;
+}
+.aboutus{
+    padding-top: 114px;
+    padding-bottom: 114px;
+    border-top: 2px solid #779611;
+}
+.aboutus-container{
+    display: flex;
+    gap: 455px;
+    align-items: center;
+}
+.aboutus-subtitle{
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-family:  "Exo 2", sans-serif;
+    font-weight: 500;
+    color: #779611;
+}
+.aboutus-title{
+    padding-bottom: 35px;
+    font-size: 48px;
+    font-family:  "Exo 2", sans-serif;
+    font-weight: 600;
+    color: #779611;
+}
+.aboutus-text{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.footer{
+    padding: 60px 0;
+    border-top: 2px solid #779611;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list, .footer-wrapp{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.footer-link, .footer-text, .flaves-title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.footer-text{
+    line-height: 1.8;
+}
